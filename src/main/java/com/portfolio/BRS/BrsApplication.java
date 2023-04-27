@@ -11,6 +11,6 @@ public class BrsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BrsApplication.class, args);
-	}
+        }
 
 }
