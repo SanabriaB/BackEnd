@@ -7,6 +7,7 @@ package com.portfolio.BRS.Dto;
 import javax.validation.constraints.NotBlank;
 
 public class dtoPersona {
+   
     @NotBlank
     private String nombre;
     @NotBlank
@@ -56,6 +57,5 @@ public class dtoPersona {
 
     public void setImg(String img) {
         this.img = img;
-    }
-    
+    } 
 }

@@ -6,10 +6,7 @@ package com.portfolio.BRS.Dto;
 
 import javax.validation.constraints.NotBlank;
 
-/**
- *
- * @author bruno
- */
+
 public class dtoHys {
     @NotBlank
     private String nombre;

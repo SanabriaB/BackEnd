@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.portfolio.BRS.Controller;
 
 import com.portfolio.BRS.Dto.dtoExperiencia;
@@ -24,8 +21,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("explab")
-@CrossOrigin(origins = {"https://brs-front-end.web.app", "http://localhost:4200"})
+@RequestMapping("/explab")
+@CrossOrigin(origins = "http://localhost:4200")
 public class CExperiencia {
     @Autowired
     SExperiencia sExperiencia;
@@ -35,6 +32,7 @@ public class CExperiencia {
         List<Experiencia> list = sExperiencia.list();
         return new ResponseEntity(list, HttpStatus.OK);
     }
+    
     @GetMapping("/detail/{id}")
     public ResponseEntity<Experiencia> getById(@PathVariable("id") int id){
         if(!sExperiencia.existsById(id))

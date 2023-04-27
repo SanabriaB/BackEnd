@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.portfolio.BRS.Entity;
 
 import javax.persistence.Entity;
@@ -18,11 +14,11 @@ public class Persona {
     private int id;
     
     @NotNull
-    @Size(min = 1, max = 40, message = "no cumple con la longitud")
+    @Size(min = 1, max = 50, message = "no cumple con la longitud")
     private String nombre;
     
     @NotNull
-    @Size(min = 1, max = 40, message = "no cumple con la longitud")
+    @Size(min = 1, max = 50, message = "no cumple con la longitud")
     private String apellido;
     
     @NotNull
