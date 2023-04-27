@@ -1,0 +1,11 @@
+En entorno de prueba local:admin admin
+
+intente un monton de opciones en el dockerfile, me pasa que dice live y al poco tiempo deja de andar, koyeb es de pago, asi que lo entrego como pude, no pude generar el usuario con Postman desde la url de render ya que no me anda, por ende no puedo iniciar sesion, en el entorno de prueba anda bien.
+
+clever cloud:
+
+username=uhaohmxsm2yj3ok9
+
+password=1aeWGtwflROn2xGYh308
+
+Gracias por la oportunidad!.
